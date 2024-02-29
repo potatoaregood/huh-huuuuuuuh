@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <ul class="menu">
+        <div class="menuToggle"><ion-icon name="accessibility-outline"></ion-icon></div>
+        <li style="--i:0;--clr:rgb(67, 67, 241);">
+            <a href="#"></a>
+        </li>
+        <li style="--i:1;--clr:rgb(241, 67, 235);">
+            <a href="https://www.youtube.com/watch?v=LBjAw8VC1Ok"><ion-icon name="home-outline"></ion-icon></a>
+        </li> 
+         <li style="--i:2;--clr:rgb(157, 160, 243);">
+            <a href="https://www.youtube.com/watch?v=3G6jV-aLwKY"><ion-icon name="person-circle-outline"></ion-icon></a>
+        </li>  
+        <li style="--i:3;--clr:rgb(136, 253, 255);">
+            <a href="https://www.youtube.com/watch?v=YVVTZgwYwVo"><ion-icon name="settings-outline"></ion-icon></a>
+        </li>  
+        <li style="--i:4;--clr:rgb(19, 0, 166);">
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><ion-icon name="mail-unread-outline"></ion-icon></a>
+        </li>  
+        <li style="--i:5;--clr:rgb(241, 238, 67);">
+            <a href="https://www.youtube.com/watch?v=2Oo8QzDHimQ"><ion-icon name="key-outline"></ion-icon></a>
+        </li> 
+         <li style="--i:6;--clr:rgb(241, 67, 67);">
+            <a href="https://www.youtube.com/playlist?list=PLlmwlRoAO4TLVOS1k3knVWm9k4Z0__PwV"><ion-icon name="videocam-outline"></ion-icon></a>
+        </li>  
+        <li style="--i:7;--clr:rgb(241, 157, 67);">
+            <a href="https://www.youtube.com/watch?v=Ntn1-SocNiY"><ion-icon name="game-controller-outline"></ion-icon></a>
+        </li>  
+        <li style="--i:8;--clr:rgb(116, 241, 67);">
+            <a href="https://www.marvel.com/tv-shows/i-am-groot/1"><ion-icon name="bag-outline"></ion-icon></a>
+        </li>
+    </ul>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        let menuToggle = document.querySelector('.menuToggle');
+        let menu = document.querySelector('.menu');
+        menuToggle.onclick = function(){
+            menu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
